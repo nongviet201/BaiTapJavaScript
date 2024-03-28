@@ -11,7 +11,7 @@ const boxes = document.querySelector('.boxes');
 // Yêu cầu
 // Render số box = số lượng màu ra ngoài màn hình bằng javascript (5 box)
 //Tạo 5 box khi vừa khởi động web
-document.addEventListener('DOMContentLoaded', () => {createBox();});
+document.addEventListener('DOMContentLoaded', () => {createBox()});
 
 // Box được tạo bởi thẻ div, có class=“box”, background tương ứng với từng mã màu
  // hàm vòng lặp tạo box và thêm màu
